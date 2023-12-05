@@ -3,18 +3,19 @@
 
 After installing the python packages required for SynthSR (requirements.txt), you can run SynthSR for photos with one command:
 
-python ./scripts/predict_command_line_reconstructed_photos.py <input> <output> <model>
+python ./scripts/predict_command_line_reconstructed_photos.py input output model
 
-<input>: 3D reconstruction from dissection photos (from photo_reconstruction, step 2 of the pipeline)
-<output>: MRI-like volume of the reconstructed hemisphere at 1x1x1mm resolution
-<model>: we provide a model for inputs of 3D reconstruction of the left hemisphere: ./models/SynthSR_left_hemi_3d.h5
+input: 3D reconstruction from dissection photos (from photo_reconstruction, step 2 of the pipeline)
+output: MRI-like volume of the reconstructed hemisphere at 1x1x1mm resolution
+model: we provide a model for inputs of 3D reconstruction of the left hemisphere: ./models/SynthSR_left_hemi_3d.h5
 
 This step is explained in manuscript Section 2.3.
 
+
+
 --------------------------------------------------
-###Below: rest of general SynthSR documentation###
+###Below: rest of general SynthSR documentation. Should not be necessary for Path2MR###
 --------------------------------------------------
-# SynthSR
 
 This repository contains an implementation of SynthSR, a convolutional neural network that turns a clinical MRI scan 
 (or even CT scan!) of any orientation, resolution and contrast into 1 mm isotropic MP-RAGE, **while inpainting lesions (which enables easier segmentation, registration, etc)**. You can then run your
