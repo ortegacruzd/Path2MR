@@ -6,11 +6,14 @@ After installing the python packages required for SynthSR (requirements.txt), yo
 python ./scripts/predict_command_line_reconstructed_photos.py input output model
 
 
+
 input: 3D reconstruction from dissection photos (from photo_reconstruction, step 2 of the pipeline)
 
 output: MRI-like volume of the reconstructed hemisphere at 1x1x1mm resolution
 
 model: we provide a model for inputs of 3D reconstruction of the left hemisphere: ./models/SynthSR_left_hemi_3d.h5
+
+
 
 This step is explained in manuscript Section 2.3.
 
