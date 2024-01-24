@@ -1,5 +1,6 @@
 This is a 3D histology reconstruction pipeline that can be implemented with sparse histological sampling 
-and in absence of an MRI reference. The pipeline is described in the following manuscript: "Three-dimensional histology reveals dissociable human hippocampal long axis gradients of Alzheimer’s pathology" by Ortega-Cruz et al.,  to be published soonin Alzheimer's and Dementia (doi: 10.1002/alz.13695)
+and in absence of an MRI reference. The pipeline is described in the following manuscript: "Three-dimensional histology reveals dissociable human hippocampal long axis gradients of Alzheimer’s pathology" by Ortega-Cruz et al., 
+to be published soonin Alzheimer's and Dementia (doi: 10.1002/alz.13695)
 
 HERE WE OUTLINE THE STEPS OF THE RECONSTRUCTION PIPELINE AND SPECIFY WHERE TO ACCESS THE CODE FOR EACH STEP.
 
